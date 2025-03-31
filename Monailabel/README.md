@@ -6,5 +6,5 @@ Requirements:
 5. pip install timm
 
 Start server command: 
-monailabel start_server -a <path to pathology> -s <path to studies> -c models <model name>
-E.g: monailabel start_server --app apps/pathology --studies datasets/ -c models segmentation_region
+monailabel start_server -a <path_to_pathology> -s <path_to_studies> -c models <model_name>
+E.g: monailabel start_server -a apps/pathology -s datasets/ -c models segmentation_region
